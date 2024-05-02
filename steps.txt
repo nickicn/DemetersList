@@ -1,11 +1,14 @@
-npx create-expo-app demetersList
+git config --global user.name nickicn
+git config --global user.email nicolelopes0008@gmail.com
 
 cd demetersList
+npm i
+npx expo start --localhost --android
+
+npx create-expo-app demetersList
 
 Instalar o Router
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
-
-npx expo --localhost --android
 
 Configurar o Router:
  Abrir o package.json e alterar a chave main
