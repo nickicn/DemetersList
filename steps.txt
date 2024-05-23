@@ -7,7 +7,7 @@ npx expo start --localhost --android
 
 npx create-expo-app demetersList
 
-Instalar o Router
+Instalar o Router:
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
 Configurar o Router:
@@ -21,3 +21,5 @@ Criar uma pasta src
 
 Dentro da pasta src criar uma pasta app
 
+Instalar o AsyncStorage:
+npx expo install @react-native-async-storage/async-storage
